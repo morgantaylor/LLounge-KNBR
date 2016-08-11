@@ -1,0 +1,171 @@
+/*=========== Levi's Lounge Start ============*/
+body.levis .wrapper-content, body.levis .wrapper-content .grid-container, body.levis .wrapper-content .column-1, body.levis .wrapper-content .column-1 > div, article.levis .entry-content, article.levis {
+	border: 0 !important;
+	margin: 0 !important;
+	max-width: 100% !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+
+body.levis .wrapper-content {
+    background: #fff; 
+    width: auto !important; 
+    max-width: 1033px !important;
+    margin:0 auto !important;
+}
+body.levis .wrapper-content .grid-container {
+ background-color:#FFFFFF;   
+}
+body.levis #block-bo1561c4e51664b6 {
+    text-align:center !important;
+    width: 100% !important;
+    padding: 0px 15px !important;
+}
+body.levis #block-bo1561c4e51664b6 img {
+    width:75% !important;
+}
+body.levis #block-bwj5616a6bf24a21 {
+    width:97% !important;
+    background-color:#FFF;
+    margin:0 auto !important;
+    padding:20px !important;
+    margin-left:14px !important;
+    margin-bottom:14px !important;
+    border-radius:.25rem !important;
+}
+body.levis .block-type-content .entry-row {
+    margin-bottom:20px !important;
+}
+body.levis .block-type-content .type-post {
+    position:relative !important;
+    display:block !important;
+    margin-bottom:.75rem !important;
+    background-color:#FFF !important;
+    border-radius:.25rem !important;
+    padding-top:0px !important;
+    border:1px solid #E5E5E5 !important;
+    min-height:285px !important;
+    -webkit-box-shadow: 5px 4px 10px 0px rgba(115,115,115,0.20);
+    -moz-box-shadow: 5px 4px 10px 0px rgba(115,115,115,0.20);
+    box-shadow: 5px 4px 10px 0px rgba(115,115,115,0.20);
+}
+body.levis .entry-row .hentry {
+    clear:none !important;
+}
+body.levis .block-type-content header {
+    padding:1.25rem !important;
+}
+body.levis #block-bwj5616a6bf24a21 .entry-title {
+    font-size:.85rem !important;
+    font-family:'Open Sans', sans-serif !important;
+    font-weight:bold !important;
+    color:#333 !important;
+    line-height:1.2rem !important;
+    padding-top:10px !important;
+    margin-bottom:-1.5rem !important;
+}
+body.levis .block-type-content a.post-thumbnail {
+    margin-bottom:0px !important;
+}
+body.levis .block-type-content a.post-thumbnail-above-title {
+    margin:0px !important;
+}
+body.levis .block-type-content a.post-thumbnail img {
+    border-top-left-radius:.25rem !important;
+    border-top-right-radius:.25rem !important;
+    border-color:transparent !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-color: transparent !important;
+    border-style: hidden !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+/*== Content Category ===*/
+body.levis .category-levislounge a.post-thumbnail img {
+    border-bottom:8px solid #FFFFFF !important; /*Offset for no category white */
+}
+body.levis #block-bwj5616a6bf24a21 .category-levislounge header::before {
+    content:"OTHER" !important;
+    color:#FFFFFF !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-levisgiants a.post-thumbnail img {
+    border-bottom:8px solid #FE5A1D !important; /*giants orange color*/
+}
+body.levis #block-bwj5616a6bf24a21 .category-levisgiants header::before {
+    content:"GIANTS" !important;
+    color:#FE5A1D !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-leviswarriors a.post-thumbnail img {
+    border-bottom:8px solid #006BB6 !important; /*warriors blue color*/
+}
+body.levis #block-bwj5616a6bf24a21 .category-leviswarriors header::before {
+    content:"WARRIORS" !important;
+    color:#006BB6 !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-levis49ers a.post-thumbnail img {
+    border-bottom:8px solid #AF1E2C !important; /*49ers red color*/
+}
+body.levis #block-bwj5616a6bf24a21 .category-levis49ers header::before {
+    content:"49ERS" !important;
+    color:#AF1E2C !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-levissharks a.post-thumbnail img {
+    border-bottom:8px solid #007889 !important; /*sharks teal color*/
+}
+body.levis #block-bwj5616a6bf24a21 .category-levissharks header::before {
+    content:"SHARKS" !important;
+    color:#007889 !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-levismoreteams a.post-thumbnail img {
+    border-bottom:8px solid #666666 !important; /*grey color*/
+}
+body.levis #block-bwj5616a6bf24a21 .category-levismoreteams header::before {
+    content:"MORE TEAMS" !important;
+    color:#666666 !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+@media screen and (max-width: 997px) {
+  body.levis .block-type-content .type-post {
+    width:45% !important;
+    margin-left:25px !important;
+  }
+  body.levis .block-type-content .entry-row .hentry:first-child {
+    margin-left:25px !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  body.levis .block-type-content .entry-row .hentry:first-child {
+    margin-left:0 !important;
+  }
+  body.levis .block-type-content .type-post {
+    width:100% !important;
+    margin-left:0 !important;
+  }  
+  body.levis #block-bwj5616a6bf24a21 {
+    width:100% !important;
+    margin-left:0 !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  body.levis.responsive-grid-active .block-type-content a.post-thumbnail img {
+    max-width:100% !important;    
+  }
+}
+/*=========== Levi's Lounge End ============*/
